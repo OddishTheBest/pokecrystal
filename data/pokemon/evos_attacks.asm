@@ -2062,6 +2062,7 @@ ChikoritaEvosAttacks:
 	db EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
 	db 1, TACKLE
+	db 1, MAGNET_BOMB
 	db 1, GROWL
 	db 8, RAZOR_LEAF
 	db 12, REFLECT
