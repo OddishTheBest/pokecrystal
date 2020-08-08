@@ -1274,4 +1274,4 @@ MagnetBombDescrption:
 	
 XScissorDescription:
 	db   "The foe slashes"
-	next "at the enemy"
+	next "at the enemy.@"
