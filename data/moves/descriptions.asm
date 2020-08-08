@@ -252,13 +252,13 @@ MoveDescriptions::
 	dw WhirlpoolDescription
 	dw BeatUpDescription
 	dw MagnetBombDescrption
-	dw MoveFDDescription
+	dw XScissorDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 
 
-MoveFDDescription:
+
 MoveFEDescription:
 MoveFFDescription:
 Move00Description:
@@ -1271,3 +1271,7 @@ BeatUpDescription:
 MagnetBombDescrption:
 	db   "A steel move"
 	next "that always hits.@"
+	
+XScissorDescription:
+	db   "The foe slashes"
+	next "at the enemy"
