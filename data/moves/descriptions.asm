@@ -251,13 +251,13 @@ MoveDescriptions::
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
-	dw MoveFCDescription
+	dw MagnetBombDescrption
 	dw MoveFDDescription
 	dw MoveFEDescription
 	dw MoveFFDescription
 	dw Move00Description
 
-MoveFCDescription:
+
 MoveFDDescription:
 MoveFEDescription:
 MoveFFDescription:
@@ -1267,3 +1267,7 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+	
+MagnetBombDescrption:
+	db   "A steel move"
+	next "that always hits.@"
