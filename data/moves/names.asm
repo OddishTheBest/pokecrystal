@@ -252,3 +252,4 @@ MoveNames::
 	db "BEAT UP@"
 	db "MAGNET BOMB@"
 	db "X-SCISSOR@"
+	db "MOONBLAST"
