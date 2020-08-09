@@ -253,13 +253,13 @@ MoveDescriptions::
 	dw BeatUpDescription
 	dw MagnetBombDescrption
 	dw XScissorDescription
-	dw MoveFEDescription
+	dw MoonblastDescription
 	dw MoveFFDescription
 	dw Move00Description
 
 
 
-MoveFEDescription:
+
 MoveFFDescription:
 Move00Description:
 	db "?@"
@@ -1275,3 +1275,7 @@ MagnetBombDescrption:
 XScissorDescription:
 	db   "The foe slashes"
 	next "at the enemy.@"
+
+MoonblastDescription:
+	db   "An attack that may"
+	next  "lower SPCL.DEF.@"
