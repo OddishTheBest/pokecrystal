@@ -265,4 +265,4 @@ Moves:
 	move BEAT_UP,      EFFECT_BEAT_UP,            10, DARK,         100, 10,   0
 	move SHADOW_BALL,  EFFECT_ALWAYS_HIT,         60, STEEL,        100, 20,   0
 	move CUT,	   EFFECT_NORMAL_HIT,	      80, BUG,          100, 15,   0
-	move SHADOW_BALL,  EFFECT_SP_DEF_DOWN_HTI     90, FAIRY         100, 10,  30
+	move SHADOW_BALL,  EFFECT_SP_DEF_DOWN_HIT     90, FAIRY         100, 10,  30
