@@ -1528,8 +1528,8 @@ _OakText1::
 	text "Hello! Sorry to"
 	line "keep you waiting!"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Welcome to Custom"
+	line "Crystal."
 
 	para "My name is OAK."
 
@@ -1538,10 +1538,9 @@ _OakText1::
 	prompt
 
 _OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
+	text "Custom Crystal is"
+	line "a hack created by"
+	cont "Penny.@"
 	text_end
 
 _OakText3::
@@ -1551,26 +1550,24 @@ _OakText3::
 	text_end ; unreferenced
 
 _OakText4::
-	text "People and #MON"
-	line "live together by"
+	text "In this hack,"
+	line "Pokemon will have"
 
-	para "supporting each"
-	line "other."
+	para "new movesets, and"
+	line "sometimes even new typing."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "In additon,"
+	line "trainers will have"
+	cont "better teams."
 	prompt
 
 _OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Encounters will be"
+	line "modified too"
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "and, in Kanto much"
+	line "higher levels!"
 
-	para "That's why I study"
-	line "#MON every day."
+	para "That's why this"
+	line "hack was made."
 	prompt
